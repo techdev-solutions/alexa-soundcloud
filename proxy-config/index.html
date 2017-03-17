@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Alexa Cloud Music for SoundCloud by techdev</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+
+    <script type="text/javascript">
+        function redirectToSoundCloud(ev) {
+            ev.preventDefault();
+            // Redirects to /sc/connect/do keeping all request parameters
+            document.location.href = 'do' + document.location.search;
+        }
+    </script>
+
+    <style>
+        .centered-button {
+            margin: 0 auto;
+            display: block;
+        }
+
+        h2 {
+            font-size: 25px;
+        }
+
+        .spacer {
+            height: 10em;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <h1 class="page-header">
+                <img src="techdev_logo60.png" alt="Techdev logo"><br>
+                Alexa Cloud Music for SoundCloud
+            </h1>
+            <h2>Deutsch</h2>
+            <p>
+                Der Alexa Cloud Music Skill wird bereitgestellt von <a href="https://techdev.de/" target="_blank">techdev Solutions GmbH</a>.
+                Um ihn zu nutzen m&uuml;ssen Sie ihn mit SoundCloud verkn&uuml;pfen.
+            </p>
+            <p>
+                Bitte beachten Sie, dass eine Verkn&uuml;pfung derzeit nicht m&ouml;glich ist wenn Sie Google nutzen um sich bei SoundCloud einzuloggen.
+            <p>
+                Sie k&ouml;nnen unsere <a href="https://techdev.de/alexa-privacy-policy/" target="_blank">Datenschutzbestimmungen hier einsehen</a>.
+            </p>
+
+            <form onsubmit="redirectToSoundCloud(event)">
+                <button type="submit" class="btn btn-success centered-button">Mit SoundCloud verküpfen</button>
+            </form>
+            <h2>English</h2>
+            <p>
+                The Alexa Cloud Music skill is provided by <a href="https://techdev.de/" target="_blank">techdev Solutions GmbH</a>. To use it
+                you have to connect it with SoundCloud.
+            </p>
+            <p>
+                Please be aware that connecting to SoundCloud is currently not possible if you use Google to log in to SoundCloud.
+            <p>
+            <p>
+                You can read our <a href="https://techdev.de/alexa-privacy-policy/" target="_blank">privacy policy here</a>.
+            </p>
+
+            <form onsubmit="redirectToSoundCloud(event)">
+                <button type="submit" class="btn btn-success centered-button">Connect with SoundCloud</button>
+            </form>
+
+        </div>
+    </div>
+    <div class="spacer"></div>
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <p>
+                <a href="https://techdev.de/impressum" target="_blank">Impressum / Imprint</a>
+            </p>
+        </div>
+    </div>
+</div>
+</body>
+</html>

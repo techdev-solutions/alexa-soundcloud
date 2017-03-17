@@ -1,0 +1,25 @@
+PlayMyFavoritesIntent Play my favorites
+PlayMyFavoritesIntent My favorites
+
+PlayMyStreamIntent Play my stream
+PlayMyStreamIntent My stream
+PlayMyStreamIntent Play some music
+PlayMyStreamIntent Play music
+PlayMyStreamIntent Play new music
+
+LikeTrackIntent Like this track
+LikeTrackIntent Like this song
+LikeTrackIntent Like this
+
+FollowUserIntent Follow the user
+
+TellCurrentTrackIntent What is currently playing
+TellCurrentTrackIntent What track is this
+TellCurrentTrackIntent What song is this
+TellCurrentTrackIntent What track is playing
+TellCurrentTrackIntent What song is playing
+TellCurrentTrackIntent What is playing
+TellCurrentTrackIntent Which track is that
+TellCurrentTrackIntent Which song is that
+TellCurrentTrackIntent Which track is playing
+TellCurrentTrackIntent Which song is playing

@@ -1,0 +1,42 @@
+buildscript {
+    ext.kotlin_version = '1.1.2'
+
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath group: 'org.jetbrains.kotlin', name: 'kotlin-gradle-plugin', version: "$kotlin_version"
+    }
+}
+
+group 'de.techdev.alexa.soundcloud'
+version '1.0.0-RELEASE'
+
+apply plugin: 'kotlin'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'org.jetbrains.kotlin', name: 'kotlin-stdlib-jre8', version: "$kotlin_version"
+
+    compile group: 'com.amazon.alexa', name: 'alexa-skills-kit', version: '1.3.0'
+    compile group: 'com.amazonaws', name: 'aws-lambda-java-core', version: '1.1.0'
+    runtime group: 'com.amazonaws', name: 'aws-lambda-java-log4j', version: '1.0.0'
+
+    compile group: 'com.amazonaws', name: 'aws-java-sdk-dynamodb', version: '1.11.125'
+
+    compile group: 'com.google.code.gson', name: 'gson', version: '2.8.0'
+    compile group: 'com.squareup.okhttp3', name: 'okhttp', version: '3.7.0'
+}
+
+task fatJar(type: Jar) {
+    baseName = project.name + '-fat'
+    from { configurations.runtime.collect { it.isDirectory() ? it : zipTree(it) } }
+    with jar
+}
+
+build.dependsOn fatJar

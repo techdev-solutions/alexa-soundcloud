@@ -1,0 +1,52 @@
+{
+  "intents": [
+    {
+      "intent": "PlayMyFavoritesIntent"
+    },
+    {
+      "intent": "PlayMyStreamIntent"
+    },
+    {
+      "intent": "LikeTrackIntent"
+    },
+    {
+      "intent": "TellCurrentTrackIntent"
+    },
+    {
+      "intent": "FollowUserIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.PauseIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.ResumeIntent"
+    },
+    {
+      "intent": "AMAZON.NextIntent"
+    },
+    {
+      "intent": "AMAZON.PreviousIntent"
+    },
+    {
+      "intent": "AMAZON.LoopOnIntent"
+    },
+    {
+      "intent": "AMAZON.LoopOffIntent"
+    },
+    {
+      "intent": "AMAZON.ShuffleOnIntent"
+    },
+    {
+      "intent": "AMAZON.ShuffleOffIntent"
+    }
+  ]
+}
