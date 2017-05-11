@@ -10,7 +10,7 @@ buildscript {
 }
 
 group 'de.techdev.alexa.soundcloud'
-version '1.0.0-RELEASE'
+version '1.0.1-SNAPSHOT'
 
 apply plugin: 'kotlin'
 
