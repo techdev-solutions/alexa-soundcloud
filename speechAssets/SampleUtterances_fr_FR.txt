@@ -1,0 +1,25 @@
+PlayMyFavoritesIntent Joue mes favoris
+PlayMyFavoritesIntent Mes favoris
+
+PlayMyStreamIntent Joue mon stream
+PlayMyStreamIntent Mon stream
+PlayMyStreamIntent Joue de la musique
+PlayMyStreamIntent Joue musique
+PlayMyStreamIntent Jouer de la nouvelle musique
+
+LikeTrackIntent Aime ce morceau
+LikeTrackIntent Aime cette track
+LikeTrackIntent Aime cette chanson
+LikeTrackIntent Aime ça
+
+FollowUserIntent Suivre 
+
+TellCurrentTrackIntent Quel est ce morceau
+TellCurrentTrackIntent Quelle est cette track
+TellCurrentTrackIntent Quelle est cette chanson
+TellCurrentTrackIntent Quelle est cette piste
+TellCurrentTrackIntent Quelle piste est-ce
+TellCurrentTrackIntent Qu'est qui est en train de jouer
+TellCurrentTrackIntent c'est quelle track
+TellCurrentTrackIntent c'est quelle musique 
+TellCurrentTrackIntent Qu'est-ce qu'on écoute 
